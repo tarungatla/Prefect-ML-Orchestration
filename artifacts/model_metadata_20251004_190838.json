@@ -1,0 +1,52 @@
+{
+    "model_name": "Gradient Boosting",
+    "timestamp": "20251004_190838",
+    "metrics": {
+        "model_name": "Gradient Boosting",
+        "accuracy": 0.8649295561278594,
+        "precision": 0.7442895857530004,
+        "recall": 0.5507018046405041,
+        "f1_score": 0.6330260125123477,
+        "cv_mean": 0.8655541663845876,
+        "cv_std": 0.0012496311583763437,
+        "roc_auc": 0.8876483985978381,
+        "confusion_matrix": [
+            [
+                24702,
+                1321
+            ],
+            [
+                3137,
+                3845
+            ]
+        ],
+        "classification_report": {
+            "0.0": {
+                "precision": 0.887316354754122,
+                "recall": 0.9492372132344464,
+                "f1-score": 0.9172329285952991,
+                "support": 26023.0
+            },
+            "1.0": {
+                "precision": 0.7442895857530004,
+                "recall": 0.5507018046405041,
+                "f1-score": 0.6330260125123477,
+                "support": 6982.0
+            },
+            "accuracy": 0.8649295561278594,
+            "macro avg": {
+                "precision": 0.8158029702535612,
+                "recall": 0.7499695089374753,
+                "f1-score": 0.7751294705538234,
+                "support": 33005.0
+            },
+            "weighted avg": {
+                "precision": 0.8570599420540513,
+                "recall": 0.8649295561278594,
+                "f1-score": 0.8571107444386209,
+                "support": 33005.0
+            }
+        }
+    },
+    "model_path": "models\\gradient_boosting_20251004_190838.pkl"
+}
